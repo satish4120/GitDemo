@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-21T13:24:07 IST" name="TestSuite" finished-at="2024-11-21T13:24:07 IST" duration-ms="16">
+    <groups>
+    </groups>
+    <test started-at="2024-11-21T13:24:07 IST" name="TestModule" finished-at="2024-11-21T13:24:07 IST" duration-ms="16">
+      <class name="pckg.test3">
+        <test-method signature="testcase(java.lang.String,java.lang.String)[pri:0, instance:pckg.test3@45dd4eda]" started-at="2024-11-21T13:24:07 IST" name="testcase" data-provider="getData" finished-at="2024-11-21T13:24:07 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[good cibil username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[good cibil password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method signature="testcase(java.lang.String,java.lang.String)[pri:0, instance:pckg.test3@45dd4eda]" started-at="2024-11-21T13:24:07 IST" name="testcase" data-provider="getData" finished-at="2024-11-21T13:24:07 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bad cibil username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bad cibil password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method signature="testcase(java.lang.String,java.lang.String)[pri:0, instance:pckg.test3@45dd4eda]" started-at="2024-11-21T13:24:07 IST" name="testcase" data-provider="getData" finished-at="2024-11-21T13:24:07 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[no cibil username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[no cibil password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+      </class> <!-- pckg.test3 -->
+    </test> <!-- TestModule -->
+  </suite> <!-- TestSuite -->
+</testng-results>

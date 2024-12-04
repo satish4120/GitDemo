@@ -9,6 +9,7 @@ public class carloan {
 
 	@AfterTest
 	public void aftertest() {
+		System.out.println("Changes done");
 		System.out.println("After Test");
 	}
 	
@@ -39,7 +40,7 @@ public class carloan {
 	
 	@BeforeClass
 	public void beforeclass() {
-		
+		System.out.println("I created changes in github");
 		System.out.println("before class");
 	}
 
